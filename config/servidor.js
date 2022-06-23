@@ -5,7 +5,7 @@ const express = require('express')
 const app = express()
 
 //definir porta do servidor
-const porta = process.env.PORT || 3
+const porta = process.env.PORT
 
 //criar rota do tipo send
 
